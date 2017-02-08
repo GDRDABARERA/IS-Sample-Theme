@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="jayamine" >
+    <title>Sample Name</title>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link href="theme/img/favicon.png" rel="icon" type="image/png" sizes="16x16" />
+    <link href="theme/css/font-wso2.min.css" rel="stylesheet" type="text/css" />
+    <link href="theme/css/theme-wso2.min.css" rel="stylesheet" type="text/css" />
+    <link href="theme/css/custom.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="sticky-footer" style="background-color:#efefef;">
+<br>
+<div class="page-content-wrapper">
+    <div class="container">
+        <div class="login-form-wrapper">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                    <div class="brand-container add-margin-bottom-5x">
+                        <h3 class="text-center-sm text-center-xs text-center-md text-right">Welcome to </h3>
+
+                        <h2 class="text-center-sm text-center-xs text-center-md text-right">Sample Name</h2>
+
+                        <p class="text-center-sm text-center-xs text-center-md text-right">Powered by</p>
+
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-3 col-md-9 col-lg-9 center-block float-remove-sm float-remove-xs pull-right-md pull-right-lg">
+                                <img class="img-responsive brand-spacer" src="theme/img/IS.png" alt="wso2-Identity-server">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 login">
+                    <div class="data-container">
+                        <form class="form-horizontal" method="POST">
+                            <h3>Sign in to your account</h3>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                                    <div class="input-group input-wrap">
+                                        <input type="text" class="form-control" placeholder="Username" name="j_username" required="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                                    <div class="input-group input-wrap">
+                                        <input type="password" class="form-control" placeholder="Password" name="j_password" required="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                                    <button type="submit" class="btn btn-default btn-primary add-margin-right-2x">Sign In</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-10 add-margin-top-3x">
+                                <comment>This is a small description about the sample. This may give a
+                                    beif explanation on what this sample is about
+                                </comment>
+                                <p><a href="http://google.lk">Read more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /#page-content-wrapper -->
+
+<!-- footer -->
+<footer class="footer">
+    <div class="container-fluid">
+        <p>
+            WSO2 | &copy; <script>document.write((new Date().getFullYear()).toString());</script> <a href="http://wso2.com/" target="_blank"><i class="icon fw fw-wso2"></i> Inc</a>.
+        </p>
+    </div>
+</footer>
+
+<!-- Jquery/Jquery UI JS -->
+<script src="libs/jquery/jquery.min.js"></script>
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<!-- Theme WSO2 JS -->
+<script src="theme/js/theme-wso2.min.js"></script>
+<script src="js/login.js"></script>
+<script>
+$('.login-form-wrapper').parents('body').addClass('background-grey');
+</script>
+
+</body>
+</html>
